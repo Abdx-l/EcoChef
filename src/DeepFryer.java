@@ -1,5 +1,5 @@
 public class DeepFryer extends Appliance {
-    private double oilCapacity; // in liters
+    private double oilCapacity; // in litres
 
     public DeepFryer(String name, double energyconsumed, double cost, int ecoRating, double oilCapacity) {
         super(name, energyconsumed, cost, ecoRating);
@@ -19,3 +19,4 @@ public class DeepFryer extends Appliance {
         return "DeepFryer{" + "Oil Capacity: " + oilCapacity + ", " + super.toString() + '}';
     }
 }
+

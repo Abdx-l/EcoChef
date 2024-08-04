@@ -3,7 +3,7 @@ public class Dishwasher extends Appliance {
     private int capacity; // no. of place settings
 
     public Dishwasher(String name, double energyconsumed, int ecoRating, double cost, int capacity) {
-        super(name, energyconsumed, cost, ecoRating);
+        super(name, energyconsumed, cost, ecoRating, "Dishwasher");
         this.capacity = capacity;
     }
 

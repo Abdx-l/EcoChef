@@ -2,7 +2,7 @@ public class SteamTable extends Appliance {
     private int numberOfPans;
 
     public SteamTable(String name, double energyconsumed, double cost, int ecoRating, int numberOfPans) {
-        super(name, energyconsumed, cost, ecoRating);
+        super(name, energyconsumed, cost, ecoRating, "SteamTable");
         this.numberOfPans = numberOfPans;
     }
 

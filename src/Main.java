@@ -9,6 +9,7 @@ public class Main {
 	private void run() {
 		ApplianceDatabase db = init();
 
+		System.out.println(db.getcheapest("Oven"));
 	}
 
 	private ApplianceDatabase init() {

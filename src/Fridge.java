@@ -2,7 +2,7 @@ public class Fridge extends Appliance {
     private double volume; // in cubic feet
 
     public Fridge(String name, double energyconsumed, double cost, int ecoRating, double volume) {
-        super(name, energyconsumed, cost, ecoRating);
+        super(name, energyconsumed, cost, ecoRating, "Fridge");
         this.volume = volume;
     }
 

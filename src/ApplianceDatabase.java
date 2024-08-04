@@ -17,4 +17,15 @@ public class ApplianceDatabase {
 		  }
 		  return null;
 	  }
+	  public Appliance getcheapest(String type) {
+		  double cheapest = Integer.MAX_VALUE;
+		  Appliance found = null;
+		  for(Appliance appliance: appliances) {
+			  if(appliance.getType().equals(type) && appliance.getCost() < cheapest) {
+				  found = appliance;
+				  cheapest = appliance.getCost();
+			  }
+		  }
+		  return found;
+	  }
 }

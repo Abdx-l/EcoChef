@@ -5,20 +5,27 @@ public class Appliance {
 	private double cost;
 	private int ecoRating; // Scale of 1-10
 
-	public Appliance(String name, double energyconsumed, double cost, int ecoRating) {
+	private String type;
+	
+	public Appliance(String name, double energyconsumed, double cost, int ecoRating, String type) {
 		this.name = name;
 		this.energyconsumed = energyconsumed;
 		this.cost = cost;
 		this.ecoRating = ecoRating;
+		this.type = type;
 	}
 
 	// Setters and getters
+	
+	public String getType() {
+		return this.type;
+	}
 
 	public String getName() {
 		return name;
 	}
 
-	public void setName() {
+	public void setName(String name) {
 		this.name = name;
 
 	}

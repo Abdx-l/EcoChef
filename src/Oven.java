@@ -2,7 +2,7 @@ public class Oven extends Appliance {
     private double capacity; // in cubic feet
 
     public Oven(String name, double energyconsumed, double cost, int ecoRating, double capacity) {
-        super(name, energyconsumed, cost, ecoRating);
+        super(name, energyconsumed, cost, ecoRating, "Oven");
         this.capacity = capacity;
     }
 

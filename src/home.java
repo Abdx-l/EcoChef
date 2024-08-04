@@ -7,7 +7,6 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
-
 import javax.swing.tree.DefaultMutableTreeNode;
 import javax.swing.tree.DefaultTreeCellRenderer;
 import javax.swing.tree.*;
@@ -78,7 +77,7 @@ public class home extends JFrame {
 
         JPanel textPanel = new JPanel();
         textPanel.setLayout(new GridLayout(3, 1, 10, 20));
-        textPanel.setBackground(new Color(0, 204, 0));
+      
 
         textPanel.add(lblWelcome);
         textPanel.add(lblInBetweenText);
@@ -219,7 +218,7 @@ public class home extends JFrame {
 
         detailsPanel = new JPanel();
         detailsPanel.setLayout(new GridLayout(0, 1));
-        detailsPanel.setBackground(new Color(0, 204, 0));
+        
         detailsPanel.setVisible(false);
         splitPane = new JSplitPane(JSplitPane.HORIZONTAL_SPLIT, treePanel, detailsPanel);
         splitPane.setDividerLocation(300);

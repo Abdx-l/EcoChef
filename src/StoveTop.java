@@ -7,7 +7,10 @@ public class StoveTop extends Appliance {
         this.numberofBurners = numberofBurners;
 
     }
-
+    
+    public int getNumberOfBurners() {
+        return numberofBurners;
+    }
     public void setNumberOfBurners(int numberofBurners) {
         this.numberofBurners = numberofBurners;
     }

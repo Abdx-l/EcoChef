@@ -10,7 +10,7 @@ Freezer.java, Fridge.java, Grill.java, StoveTop.java, SteamTable.java, Oven.java
 
 home.java: The main file of the project, which sets up the application interface and integrates the appliance management functionality.
 
-Features
+Features:
 Add Appliances: Add new appliances to the database.
 Retrieve Appliance by Name: Find and display details of an appliance by its name.
 Find Cheapest Appliance: Find and display the cheapest appliance of a given type.
